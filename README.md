@@ -5,7 +5,7 @@ Image processing study footprint
 - Arithmetic
 - XOR
 - Histograms
-- Contrast Stretching
+- Contrast stretching
 - Intensity transforms
 
 ## [Area processes](/Docs/Area%20processes.md)
