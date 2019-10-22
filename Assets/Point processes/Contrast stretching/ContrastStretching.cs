@@ -35,8 +35,6 @@ namespace PointProcesses
                 }
             }
 
-            Debug.Log($"{low}, {high}");
-
             Texture2D texture = new Texture2D(512, 512);
 
             int[] stretchingHistogram = new int[256];
@@ -53,8 +51,6 @@ namespace PointProcesses
                     maximumHistogram = Mathf.Max(maximumHistogram, stretchingHistogram[(int)Mathf.Clamp(stretchingColor * 255, 0, 255)]);
                 }
             }
-
-            Debug.Log($"{maximumHistogram}");
 
             texture.Apply();
 
