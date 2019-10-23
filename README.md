@@ -12,3 +12,4 @@ Image processing study footprint
 - Convolutions
 - Blurring
 - Sharpening
+- Edge detection
