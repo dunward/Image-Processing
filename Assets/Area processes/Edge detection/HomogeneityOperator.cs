@@ -11,7 +11,7 @@ namespace AreaProcesses
         public Texture2D source;
         [Range(0, 1)] public float threshold;
 
-        private void Update()
+        private void Start()
         {
             GetComponent<RawImage>().texture = GetTexture();
         }
