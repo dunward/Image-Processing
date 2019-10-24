@@ -13,3 +13,6 @@ Image processing study footprint
 - Blurring
 - Sharpening
 - Edge detection
+
+## [Geometric processes](/Docs/Geometric%20processes.md)
+- Interpolation
