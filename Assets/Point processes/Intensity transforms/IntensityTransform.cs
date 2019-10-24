@@ -67,7 +67,6 @@ namespace PointProcesses
 
             for (int i = 0; i < intensity.Length; i++)
             {
-                Debug.Log($"{Mathf.Pow(255, 1 / value)}, {Mathf.Pow(intensity[i], 1 / value)}");
                 intensity[i] = (int)Mathf.Lerp(0, 255, Mathf.InverseLerp(0, Mathf.Pow(255, 1 / value), Mathf.Pow(intensity[i], 1 / value)));
             }
 
